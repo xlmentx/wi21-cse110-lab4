@@ -78,6 +78,14 @@ Explain the difference between to == and === operators.
 CONDITIONALS
   1. Explain what gets printed and why.  
   2==true is false, so "Hello!" wont be printed.  
-  2 is true, so "How are you?" wont be printed.  
-  Since 2 was true and "Goodbye" is part of the same ladder, "Goodbye" wont be printed.
+  2 is true, so "How are you?" will be printed.  
+  Since 2 was true and "Goodbye" is part of the same ladder, "Goodbye" wont be printed.  
+  Only output is "How are you?"  
+
+LOOPS
+  for (const color in statistics) {  
+    if(color.charAt(0)=='r' || object[color]%2==1)  
+      console.log(`obj.${prop}`);  
+}  
+  
   

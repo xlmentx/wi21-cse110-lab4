@@ -90,7 +90,9 @@ for (const color in statistics) {
 }</pre>  
   
 FUNCTIONS  
-  1. the funtion generates callback functions using input array and pushes them onto newArr.  
+  1. the funtion modifies [1,2,3] by callingback doSomething() to add 2, 
+  then having doSomething callback funciton() to multiply by 2, before storing and returning in newArr. 
+  [1,2,3]->[1+2,2+2,3+2]->[3*2,4*2,5*2]->retrun[6,8,10]  
   2. 
   <pre>
   function time()

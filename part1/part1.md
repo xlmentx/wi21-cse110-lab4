@@ -1,3 +1,4 @@
+VARIABLES & SCOPING
 1. What will happen at line 11 and why? 
   var doesn't have scope, so whetever happened to it last remains stored.
   Therefore, the value of prices.length-1 will be printed.
@@ -37,3 +38,11 @@
   Since finalPrice is a constant set to 0, dicounted.push() will always push 0.
   Since dicounted is constant you can't change it, but you can add to it. 
   Therefore, line 8 will always push 0's and final discount will be [0,0,0].
+
+DATA TYPES
+A. Accessing the value of the name property in the student object
+
+B. Accessing the value of the Grad Year property in the student object
+C. Calling the function for the greeting property in the student object
+D. Accessing the name property of the object in the Favorite Teacher property in student
+E. Access the first index in the array of the courseLoad property of the student object

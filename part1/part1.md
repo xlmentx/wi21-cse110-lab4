@@ -11,7 +11,7 @@ VARIABLES & SCOPING
 4. What will the function return if we call discountPrices([100, 200, 300], .5) ?  
   The function will take the prices and multiply them by 1-discount, then round to two decimal places, 
   and finaly push the results onto dicounted to be returned   
-  [100*(1-0.5),200*(1-0.5),300*(1-0.5)]->[50,100,150]->return[50,100,150]  
+  [100*(1-0.5), 200*(1-0.5), 300*(1-0.5)] -> [50, 100, 150] -> return[50, 100, 150]  
 5. What will happen at line 11 and why?  
   Let is block scoped and i is outside of this line 11's scope. 
   A no such variable Error will occur.  
@@ -24,7 +24,7 @@ VARIABLES & SCOPING
 8. What will the function return if we call discountPrices([100, 200, 300], .5) ?  
   The function will take the prices and multiply them by 1-discount, then round to two decimal places, 
   and finaly push the results onto dicounted to be returned  
-  [100*(1-0.5),200*(1-0.5),300*(1-0.5)] -> [50,100,150] -> return[50,100,150]  
+  [100*(1-0.5), 200*(1-0.5), 300*(1-0.5)] -> [50, 100, 150] -> return[50, 100, 150]  
 9. What will happen at line 11 and why?  
   Let is block scoped, i is outside of this line 11's scope. 
   A no such variable Error will occur.  
@@ -93,7 +93,7 @@ FUNCTIONS
   1. the funtion modifies [1,2,3] by callingback doSomething() to add 2, 
   then having doSomething() callback funciton() to multiply by 2, 
   before storing and returning in newArr.  
-  [1,2,3]->[1+2,2+2,3+2]->[3*2,4*2,5*2]->retrun[6,8,10]  
+  [1, 2, 3] -> [1+2, 2+2, 3+2] -> [3*2, 4*2, 5*2] -> retrun[6, 8, 10]  
   2. 
   <pre>
   function time()

@@ -82,7 +82,7 @@ CONDITIONALS
   Since 2 was true and "Goodbye" is part of the same ladder, "Goodbye" wont be printed.  
   Only output is "How are you?"  
 
-LOOPS
+LOOPS  
   for (const color in statistics) {  
     if(color.charAt(0)=='r' || object[color]%2==1)  
       console.log(`obj.${prop}`);  

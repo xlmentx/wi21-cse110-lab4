@@ -51,7 +51,7 @@ DATA TYPES
 5. Access the first index in the array of the courseLoad property of the student object  
   student.courseLoad[0]  
 
-BASIC OPERATORS & TYPE CONVERSION
+BASIC OPERATORS & TYPE CONVERSION  
 14. Arithmetic  
   A. ‘3’ + 2  
   B. ‘3’ - 2  

@@ -69,4 +69,4 @@ Comparison
   3. [2==‘2’=true]: because the the first is a number, it assumes the second is also a number.  
   4. [2===‘2’=false]: because both elements are of different type.  
   5. [true==2=false]: because the second element is a number, it assumes true is 1.  
-  6. [true===Boolean(2)=true]: because both are of the same type and value.  
+  6. [true===Boolean(2)=true]: because both are of the same type and Boolean(x) returns true for x>0.  

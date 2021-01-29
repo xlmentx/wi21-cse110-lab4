@@ -52,6 +52,7 @@ DATA TYPES
   student.courseLoad[0]  
 
 BASIC OPERATORS & TYPE CONVERSION  
+
 Arithmetic  
   1. ‘3’+2=32: because the first element is a char, it assumes you want to concatenate the second.  
   2. ‘3’-2=1: because the second element is subtracted, it assumes both are numbers.  

@@ -72,6 +72,12 @@ Comparison
   6. [true===Boolean(2)=true]: because both are of the same type and Boolean(x) returns true for x>0.  
 
 Explain the difference between to == and === operators.  
-    == compares equivalance with auto type matching. === compares both type match and value equivalence  
+    == compares equivalance with auto type matching.  
+    === compares both type match and value equivalence  
 
 CONDITIONALS
+  1. Explain what gets printed and why.
+  2==true is false, so "Hello!" wont be printed.  
+  2 is true, so "How are you?" wont be printed.  
+  Since 2 was true and "Goodbye" is part of the same ladder, "Goodbye" wont be printed.
+  

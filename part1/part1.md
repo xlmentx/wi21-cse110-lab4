@@ -53,11 +53,11 @@ DATA TYPES
 
 BASIC OPERATORS & TYPE CONVERSION  
 14. Arithmetic  
-  A. ‘3’ + 2  
-  B. ‘3’ - 2  
-  C. 3 + null  
-  D. ‘3’ + null  
-  E. true + 3  
-  F. false + null  
-  G. “3” + undefined  
-  H. “3” - undefined  
+  ‘3’+2=32: because the first element is a char, it assumes you want to concatenate the second.  
+  ‘3’-2=1: because the second element is subtracted, it assumes both are numbers.  
+  3+null=3: because the first element is a number, it assumes both are numbers.  
+  ‘3’+null=3null: because the first element is a char, it assumes you want to concatenate the second.  
+  true+3=4: because the second element is not a boolean, it assumes the first isn't either.  
+  false+null=0 because the second element is not a boolean, it assumes the first isn't either.  
+  “3”+undefined=3undefined: because the first element is a string, it assumes you want to concatenate the second.  
+  “3”-undefined=NaN: because the second element is subtracted, it assumes both are numbers.  

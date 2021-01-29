@@ -40,13 +40,13 @@ VARIABLES & SCOPING
   Therefore, line 8 will always push 0's and final discount will be [0,0,0].
 
 DATA TYPES
-A. Accessing the value of the name property in the student object
+1. Accessing the value of the name property in the student object
   student.name
-B. Accessing the value of the Grad Year property in the student object
+2. Accessing the value of the Grad Year property in the student object
   student['Grad Year']
-C. Calling the function for the greeting property in the student object
+3. Calling the function for the greeting property in the student object
   student.greeting()
-D. Accessing the name property of the object in the Favorite Teacher property in student
+4. Accessing the name property of the object in the Favorite Teacher property in student
   student['Favorite Teacher'].name
-E. Access the first index in the array of the courseLoad property of the student object
+5. Access the first index in the array of the courseLoad property of the student object
   student.courseLoad[0]

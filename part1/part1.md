@@ -53,8 +53,8 @@ DATA TYPES
 
 BASIC OPERATORS & TYPE CONVERSION  
 14. Arithmetic  
-  ‘3’+2=32: because the first element is a char, it assumes you want to concatenate the second.  
-  ‘3’-2=1: because the second element is subtracted, it assumes both are numbers.  
+  >‘3’+2=32: because the first element is a char, it assumes you want to concatenate the second.  
+  >‘3’-2=1: because the second element is subtracted, it assumes both are numbers.  
   3+null=3: because the first element is a number, it assumes both are numbers.  
   ‘3’+null=3null: because the first element is a char, it assumes you want to concatenate the second.  
   true+3=4: because the second element is not a boolean, it assumes the first isn't either.  

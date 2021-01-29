@@ -93,7 +93,7 @@ FUNCTIONS
   1. the funtion modifies [1,2,3] by callingback doSomething() to add 2, 
   then having doSomething() callback funciton() to multiply by 2, 
   before storing and returning in newArr.  
-  [1, 2, 3] -> [1+2, 2+2, 3+2] -> [3*2, 4*2, 5*2] -> retrun[6, 8, 10]  
+  [1, 2, 3] -> [1+2, 2+2, 3+2] -> [3x2, 4x2, 5x2] -> retrun[6, 8, 10]  
   2. 
   <pre>
   function time()

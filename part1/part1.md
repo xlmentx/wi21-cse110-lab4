@@ -83,9 +83,9 @@ CONDITIONALS
   Only output is "How are you?"  
 
 LOOPS  
-  for (const color in statistics) {  
+<pre>  for (const color in statistics) {  
     if(color.charAt(0)=='r' || object[color]%2==1)  
       console.log(`obj.${prop}`);  
-}  
+</pre>}  
   
   

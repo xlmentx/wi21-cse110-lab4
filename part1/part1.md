@@ -1,5 +1,5 @@
 VARIABLES & SCOPING
-1. What will happen at line 11 and why?\\ 
+1. What will happen at line 11 and why?   
   var doesn't have scope, so whetever happened to it last remains stored.
   Therefore, the value of prices.length-1 will be printed.
 2. What will happen at line 12 and why?\

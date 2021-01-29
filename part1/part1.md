@@ -92,7 +92,8 @@ for (const color in statistics) {
 FUNCTIONS  
   1. the funtion generates callback functions using input array and pushes them onto newArr.  
   2. 
-  <pre>function time()
+  <pre>
+  function time()
   {   let d= new Date();
       let time = d.toLocaleTimeString();
       console.log(time)

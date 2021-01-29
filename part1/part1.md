@@ -54,19 +54,24 @@ DATA TYPES
 BASIC OPERATORS & TYPE CONVERSION  
 
 Arithmetic  
-  A. [‘3’+2=32]: because the first element is a char, it assumes you want to concatenate the second.  
-  B. [‘3’-2=1]: because the second element is subtracted, it assumes both are numbers.  
-  C. [3+null=3]: because the first element is a number, it assumes both are numbers.  
-  D. [‘3’+null=3null]: because the first element is a char, it assumes you want to concatenate the second.  
-  E. [true+3=4]: because the second element is not a boolean, it assumes the first isn't either.  
-  F. [false+null=0]: because the second element is not a boolean, it assumes the first isn't either.  
-  G. [“3”+undefined=3undefined]: because the first element is a string, it assumes you want to concatenate the second.  
-  H. [“3”-undefined=NaN]: because the second element is subtracted, it assumes both are numbers.  
+  1. [‘3’+2=32]: because the first element is a char, it assumes you want to concatenate the second.  
+  2. [‘3’-2=1]: because the second element is subtracted, it assumes both are numbers.  
+  3. [3+null=3]: because the first element is a number, it assumes both are numbers.  
+  4. [‘3’+null=3null]: because the first element is a char, it assumes you want to concatenate the second.  
+  5. [true+3=4]: because the second element is not a boolean, it assumes the first isn't either.  
+  6. [false+null=0]: because the second element is not a boolean, it assumes the first isn't either.  
+  7. [“3”+undefined=3undefined]: because the first element is a string, it assumes you want to concatenate the second.  
+  8. [“3”-undefined=NaN]: because the second element is subtracted, it assumes both are numbers.  
   
 Comparison  
-  A. [‘2’>1=true]: because the first char is greater than the char of the second.  
-  B. [‘2’<‘12’=false]: because the first char is greater than the first char of the second.  
-  C. [2==‘2’=true]: because the the first is a number, it assumes the second is also a number.  
-  D. [2===‘2’=false]: because both elements are of different type.  
-  E. [true==2=false]: because the second element is a number, it assumes true is 1.  
-  F. [true===Boolean(2)=true]: because both are of the same type and Boolean(x) returns true for x>0.  
+  1. [‘2’>1=true]: because the first char is greater than the char of the second.  
+  2. [‘2’<‘12’=false]: because the first char is greater than the first char of the second.  
+  3. [2==‘2’=true]: because the the first is a number, it assumes the second is also a number.  
+  4. [2===‘2’=false]: because both elements are of different type.  
+  5. [true==2=false]: because the second element is a number, it assumes true is 1.  
+  6. [true===Boolean(2)=true]: because both are of the same type and Boolean(x) returns true for x>0.  
+
+Explain the difference between to == and === operators.  
+    == compares equivalance with auto type matching. === compares both type match and value equivalence  
+
+CONDITIONALS

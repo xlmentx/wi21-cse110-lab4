@@ -25,7 +25,7 @@ VARIABLES & SCOPING
   The function will take the prices and multiply them by 1-discount, then round to two decimal places, 
   and finaly push the results onto dicounted to be returned  
   [100*(1-0.5),200*(1-0.5),300*(1-0.5)] -> [50,100,150] -> return[50,100,150]  
-9.What will happen at line 11 and why?  
+9. What will happen at line 11 and why?  
   Let is block scoped, i is outside of this line 11's scope. 
   A no such variable Error will occur.  
 10. What will happen at line 12 and why?  

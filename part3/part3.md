@@ -1,7 +1,7 @@
 PART1
-1. What was the bug? 
+1. What was the bug?  
   The bug was that the strings num1 and num2 were being concatenated.
-2. How would you fix it? 
+2. How would you fix it?  
   My fix is to multiply by 1 in order turn the strings into numbers. 
 
 PART2
